@@ -76,20 +76,20 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 0.4fr 1fr 1fr;
+  grid-template-rows: 1fr 1.4fr 0.4fr 1.4fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "vdo1 vdo1 vdo2 vdo2" "vdo1 vdo1 vdo2 vdo2" "vdo3 vdo3 vdo4 vdo4" "vdo3 vdo3 vdo4 vdo4"; }
+  grid-template-areas: "vdo1 vdo1 . vdo2 vdo2" "vdo1 vdo1 . vdo2 vdo2" ". . . . ." "vdo3 vdo3 . vdo4 vdo4" "vdo3 vdo3 . vdo4 vdo4"; }
+
+.vdo3 {
+  grid-area: vdo3; }
 
 .vdo1 {
   grid-area: vdo1; }
 
 .vdo2 {
   grid-area: vdo2; }
-
-.vdo3 {
-  grid-area: vdo3; }
 
 .vdo4 {
   grid-area: vdo4; }
