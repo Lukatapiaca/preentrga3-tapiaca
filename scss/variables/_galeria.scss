@@ -115,6 +115,7 @@
 
 @media (max-width: 800px) {
     .container {
+        margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -133,6 +134,7 @@
 
     .vdo1 {
         grid-area: vdo1;
+        
     }
 
     .vdo2 {

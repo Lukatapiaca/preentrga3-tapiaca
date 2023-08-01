@@ -49,27 +49,40 @@
     </nav>
   </header>
   <main>
-    <form>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">
-          <h2>Nombre y apellido</h2>
-        </label>
-        <input type="text" class="form-control" id="nombreyapellido">
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">
-          <h2>Correo electronico</h2>
-        </label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">
-          <h2>Deje su mensaje</h2>
-        </label>
-        <input type="text" class="form-control" id="coloque su mensaje">
-      </div>
-      <button type="submit" class="btn btn-primary">ENVIAR</button>
-    </form>
+    <h1 align="center" class="animate__animated animate__backInUp">NOS INTERESA TU OPINION</h1> 
+    <section class="seccion">
+      <form class="formulario">
+          <h2 class="formulario-titulo">DEJA TU MENSAJE</h2>
+
+          <div class="formulario-contenedor">
+              <div class="formulario-grupo">
+                  <input type="text" id="nombre" class="formulario-input" placeholder=" ">
+                  <label for="nombre" class="formulario-label">NOMBRE</label>
+                  <span class="formulario-line"></span>
+
+              </div>
+          </div>
+          <div class="formulario-contenedor">
+              <div class="formulario-grupo">
+                  <input type="email" id="mail" class="formulario-input" placeholder=" ">
+                  <label for="mail" class="formulario-label">EMAIL</label>
+                  <span class="formulario-line"></span>
+
+              </div>
+          </div>
+          <div class="formulario-contenedor">
+              <div class="formulario-grupo">
+                  <input type="text" id="mensaje" class="formulario-input" placeholder=" ">
+                  <label for="mensaje" class="formulario-label">MENSAJE</label>
+                  <span class="formulario-line"></span>
+                  
+              </div>
+              <input type="submit" class="formulario-submit" value="ENVIAR">
+          </div>
+
+      </form>
+
+  </section>
   </main>
   <footer>
     <ul class="nav justify-content-center">

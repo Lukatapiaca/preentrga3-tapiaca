@@ -1,12 +1,13 @@
 @import './variables/galeria';
 @import './variables/titulos';
 @import './variables/index';
-
+@import './variables/formulario';
 
 body {
 	background-color: rgba(0, 101, 253, 0.267);
 	margin: 0;
 	font-family: monospace;
+	min-height: 70vh;
 }
 
 
