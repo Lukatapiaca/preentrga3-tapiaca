@@ -275,6 +275,25 @@ h1 {
   transition: transform 0.4s;
 }
 
+.iframes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .iframes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    height: 1000px;
+    flex-wrap: wrap;
+  }
+}
 body {
   margin: 0;
   font-family: monospace;
